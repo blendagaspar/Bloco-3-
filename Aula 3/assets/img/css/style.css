@@ -1,0 +1,115 @@
+/* Css para página index.html e contato.html*/
+
+       .p1 {
+    
+         font-size: 15px;
+       
+        }
+
+      .center {
+          text-align:  center;
+        
+      }
+
+      .container div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        background-color: #f1f1f1;
+        margin: 10px;
+        padding: 20px;
+       
+      }
+
+      .h2{
+
+        font-size: 20px;
+      }
+
+      #menu li{
+
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+        float: center;
+      }
+
+      #menu li a {
+
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-style: oblique;
+      }
+
+     #menu li a:hover:not(.active)        {
+
+        background-color: rgb(207, 207, 37);
+     }
+    
+     .active {
+        background-color: #04AA6D;
+      }
+
+
+     .br-50{
+
+        border-radius: 50%;
+     }
+     .wh{
+
+        height: 400;
+        width: 400px; 
+     }
+
+     .barrasuperior{
+        background: rgb(243, 243, 179);
+     }
+     
+     .H{
+
+        font-style: oblique;
+     }
+     
+     p.double {
+         border-style: double;
+        }
+
+        .sobre2{
+            
+            background-color: #333;
+          }
+          
+       .tm{
+       width: 18 px;
+       height: 18 px;
+       align-items: center;
+
+       }
+
+
+      /* CSS página sobre.html*/
+
+      .sobre{
+        display: flex;
+        background-color: #333;
+      }
+      
+      .sobre1 div{
+        background-color: #f1f1f1;
+        margin: 10px;
+        padding: 20px;
+        font-size: 20px;
+      }
+
+      #email{
+        text-decoration-color:  black;
+      }
+
+      

@@ -30,19 +30,20 @@
         <div>
 <form>
     <label for="nome"> Nome</label> <br>
-     <input type="text" id="nome">
-<br>
-<br>
+     <input type="text" id="nome" onkeyup='validaNome()'>
+     <div id='txtNome'></div>
      <label for="email"> E-mail</label> <br>
-     <input type="email" id="email">
-<br>
-<br>
+     <input type="email" id="email" onkeyup='validaEmail()'>
+     <div id='txtEmail'></div>
+
+
      <label for="assunto"> Assunto</label> <br>
-     <textarea name="assunto" id="assunto" cols="60" rows="5"></textarea>
+     <textarea name="assunto" id="assunto" cols="60" rows="5" onkeyup='validaAssunto()'></textarea>
+     <div id='txtAssunto'></div>
 
 <br>
 <br>
-<button class= center>Enviar</button>
+<button class= center onclick="enviar()">Enviar</button>
 
 </form>
 </div>
@@ -55,8 +56,8 @@
 </div>
 
 <div>
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.4716730817427!2d-46.65982228554227!3d-23.587411268438753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59f1069d11d1%3A0xcb936109af9ce541!2sParque%20Ibirapuera!5e0!3m2!1spt-BR!2sbr!4v1626651137188!5m2!1spt-BR!2sbr" 
-width="400" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+<iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.4716730817427!2d-46.65982228554227!3d-23.587411268438753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59f1069d11d1%3A0xcb936109af9ce541!2sParque%20Ibirapuera!5e0!3m2!1spt-BR!2sbr!4v1626651137188!5m2!1spt-BR!2sbr" 
+width="400" height="350" style="border:0;" allowfullscreen="" loading="lazy" onmousemove="mapaZoom()" onmouseout="mapaNormal()"  id='mapa'></iframe>
 </div>
 </div>
 
@@ -70,6 +71,7 @@ width="400" height="350" style="border:0;" allowfullscreen="" loading="lazy"></i
     
   </footer>
 
+  <script src="assets/js/script.js"></script>
 
 </body>
 </html>
