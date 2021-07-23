@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LandingPage</title>
+    <!-- CSS BOOTSTRAP -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-info">
+        <a class="navbar-brand text-white" href="#">La No Meu apê </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
+            aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link text-white" href="index.html">Home <span class="sr-only">(página
+                            atual)</span></a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Temas de festa
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="temasDeFesta.html">Modernos</a>
+                        <a class="dropdown-item" href="#">Românticos</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Rock N' Roll</a>
+                    </div>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link text-white" href="servicos.html">Serviços</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link text-white" href="orcamento.html">Orçamento</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link text-white" href="sobre.html">Sobre</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+                <button class="btn btn-outline-light" type="submit">Pesquisar</button>
+            </form>
+        </div>
+    </nav>
+    <!-- /Nav Bar -->
+
+    <div class="container">
+        <!--carrossel-->
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="assets/Decoração-de-Festas-Infantis.jpg" alt="Primeiro Slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100"
+                        src="assets/Decoração-de-Festa-60-Anos-32-Modelos-e-Idéias-Incríveis-4-1280x720.jpg"
+                        alt="Segundo Slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="assets/festa-caseira-6.jpg" alt="Terceiro Slide">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Próximo</span>
+            </a>
+        </div>
+        <!--/carrossel-->
+
+        <!--Jumbotron-->
+        <div class="jumbotron jumbotron-fluid bg-info">
+            <div class="container">
+                <h1 class="display-4 ">A vida é uma festa!</h1>
+                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil eos voluptatem cumque
+                    quod voluptate sunt aut, facere quidem aliquam minus quasi nesciunt libero porro fugit. Accusamus,
+                    cupiditate impedit rerum ipsam natus perspiciatis quibusdam atque qui ut, itaque veniam laboriosam
+                    temporibus est cumque deserunt. Fuga totam numquam voluptates sint incidunt facere ab, ipsam,
+                    distinctio enim blanditiis suscipit architecto maiores eos! Iusto eaque fugit sed placeat ratione
+                    architecto sit temporibus dolores fuga nam ex voluptas, neque culpa at nesciunt aspernatur ab quas
+                    debitis reprehenderit iste dolore adipisci. Ratione aspernatur corporis hic vero, quas doloremque
+                    repellendus culpa eum consectetur impedit officia animi sequi..</p>
+            </div>
+        </div>
+
+        <!--Jumbotron-->
+
+        <!--Cards-->
+        <div class="card-group">
+            <div class="card">
+                <img class="card-img-top" src="assets/canva-photo-editor (4).png" alt="Imagem de capa do card">
+                <div class="card-body bg-info">
+                    <h5 class="card-title">Festa 1</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet molestias cumque. Rem quae iusto commodi. Ea ipsa
+                        unde hic nemo qui expedita esse reprehenderit officia maiores alias..</p>
+                    <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="/Aula 4 e 5/assets/canva-photo-editor (1).png"
+                    alt="Imagem de capa do card">
+                <div class="card-body bg-info">
+                    <h5 class="card-title">Festa 2</h5>
+                    <p class="card-text">Este é um card com suporte a texto embaixo, que funciona como uma introdução a
+                        um conteúdo adicional.</p>
+                    <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="assets/canva-photo-editor (3).png" alt="Imagem de capa do card">
+                <div class="card-body bg-info">
+                    <h5 class="card-title">Festa 3</h5>
+                    <p class="card-text">Este é um card maior com suporte a texto embaixo, que funciona como uma
+                        introdução a um conteúdo adicional. Este card tem o conteúdo ainda maior que o primeiro, para
+                        mostrar a altura igual, em ação.</p>
+                    <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
+                </div>
+            </div>
+        </div>
+        <!--/Cards-->
+
+        <!--texto e Video-->
+        <div class="row mt-5 mb-5">
+            <div class="col-md-6">
+                <h5>Transforma-mos momentos felizes!</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis tempora repudiandae
+                    aspernatur. Itaque delectus minima officiis eos? Quae repudiandae, et amet aspernatur at minima
+                    nesciunt maxime veniam maiores, quis sapiente.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, perferendis accusantium! Impedit id
+                    consequatur minima quia ullam libero, totam labore ut assumenda voluptates non quas, inventore omnis
+                    quod esse laudantium.</p>
+            </div>
+            <div class="col-md-6">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/k4cCHjOvpOw"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+
+            </div>
+        </div>
+    </div>
+    <!--/texto e Video-->
+
+    <!--rodapé-->
+    <hr>
+    <footer>
+        <div class="row mb-3">
+            <div class="col-md-12 d-flex justify-content-center">
+                
+                    <a href="https://www.instagram.com/" target="_black" class="p-3">
+                    <img class="tm" src="assets/facebook.png" alt="instagram">
+                    </a>
+                    <a href="https://pt-br.facebook.com/" target="_black" class="p-3">
+                    <img class="tm" src="assets/instagram.png" alt=" facebook">
+                    </a>
+
+                </div>
+            </div>
+        </div>
+        
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-12">
+        
+                  <h6 class="text-center">Todos os direitos reservados para empresa La No Meu Apê &copy;</h6>
+
+            </div>
+        </div>
+
+
+    </footer>
+
+    <!--rodapé-->
+
+
+    </div>
+
+
+    <!-- JS BOOTSTRAP -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
+    </script>
+    <!-- /JS BOOTSTRAP -->
+</body>
+
+</html>
